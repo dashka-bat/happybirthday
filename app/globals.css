@@ -24,3 +24,69 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* subtle grid background similar to the design */
+:root {
+  --grid-color: rgba(0,0,0,0.03);
+}
+
+body {
+  /* base pink + soft grid */
+  background-color: #ffeef1;
+  background-image:
+    repeating-linear-gradient(0deg, var(--grid-color) 0 1px, transparent 1px 80px),
+    repeating-linear-gradient(90deg, var(--grid-color) 0 1px, transparent 1px 80px);
+  background-size: 80px 80px, 80px 80px;
+}
+
+/* balloon styles & animations (global so client component and server HTML use same classes) */
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(-55vh) translateX(12px) rotate(6deg);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(-110vh) translateX(-10px) rotate(-4deg);
+    opacity: 0.9;
+  }
+}
+
+.balloon {
+  border-radius: 50% 50% 45% 45%;
+  bottom: -25%;
+  opacity: 0.92;
+  animation: floatUp linear infinite;
+  box-shadow: inset -4px -8px 10px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0,0,0,0.06);
+  position: absolute;
+  pointer-events: none;
+}
+
+.balloon::after {
+  /* string */
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 2px;
+  height: 44px;
+  background: rgba(0,0,0,0.12);
+  transform: translateX(-50%);
+  border-radius: 1px;
+}
+
+.balloon::before {
+  /* small highlight */
+  content: "";
+  position: absolute;
+  left: 18%;
+  top: 18%;
+  width: 18%;
+  height: 18%;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.25);
+  transform: rotate(-15deg);
+}
