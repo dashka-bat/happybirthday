@@ -109,13 +109,13 @@ export default function Home() {
       <div className="absolute text-black/30 text-xl left-1/2 bottom-20">✦</div>
       
       {/* smiley face */}
-      <motion.img
+      {/* <motion.img
          initial={{ scale: 0, rotate: -20 }}
          animate={{ scale: 1, rotate: 0 }}
          transition={{ delay: 1, type: "spring" }}
          src="/smiley.svg"
          className="absolute left-[35%] bottom-[15%] w-16 sm:w-20 select-none z-10"
-      />
+      /> */}
 
       {/* main content */}
       <div className="max-w-6xl w-full flex flex-col lg:flex-row items-center justify-center gap-10 relative z-20">

@@ -7,13 +7,12 @@ interface WishesModalProps {
 }
 
 const wishes = [
-  { id: 1, gender: 'male', name: 'Dashka', text: "Nasan bayrin mendee minii naiz setegleerei ystoi mundagshu za teged onoodor oroi alyaa ", color: "from-blue-400 to-blue-600", img: "/eregtei 2.jpg" },
-  { id: 2, gender: 'male', name: 'Super Boy', text: "May your year be as awesome as you are!", color: "from-indigo-400 to-indigo-600", img: "/image copy 6.png" },
-  { id: 3, gender: 'female', name: 'Sweetie', text: "You are beautiful inside and out!", color: "from-pink-400 to-pink-600", img: "/image copy 7.png" },
+  { id: 1, gender: 'male', name: 'Dashka', text: "Bainga tusaldagt bayrlla minii naiz ystoi mundag shu tursun udriin mend ❤️", color: "from-blue-400 to-blue-600", img: "/eregtei 2.jpg" },
+  { id: 2, gender: 'male', name: 'Tulga', text: "Mundag hogjiltei nzdaa tursun udriin mend Zuwd ud shig zuulhun Zvgeergvid urgus shig shirvvn Zvgeergvi vil hiisen c bvgdiig olood medcideg Zvw zvgeer bhd ni oddog nmg sorrydoroi ❤️ nutgiin ahtaigaa suulganaa hha", color: "from-indigo-400 to-indigo-600", img: "/image copy 6.png" },
+  { id: 3, gender: 'female', name: 'Odontsetseg', text: "Sahilgagui huurhun ohindoo zunduu hairtai shuu tursun udrin mend hurgeye ❤️", color: "from-pink-400 to-pink-600", img: "/image copy 7.png" },
   { id: 4, gender: 'female', name: 'LkhagvaTsend', text: "Nz gdg hun ymr bhiin hamgiin tod jishee shuu chi 😘 Tsaashdaa bidnii nohorlol udaan urgeljilj olon shn dursamjuudiig hamtdaa buteene gedgtee itgeltei bn 😉 Hairtai shuu broji", color: "from-rose-400 to-rose-600", img: "/image copy 8.png" },
-  { id: 5, gender: 'female', name: 'Angel', text: "Sending you love and warm hugs!", color: "from-fuchsia-400 to-fuchsia-600", img: "/image copy 9.png" },
-  { id: 6, gender: 'female', name: 'Cutie', text: "Smile big and laugh often today!", color: "from-purple-400 to-purple-600", img: "/image copy 10.png" },
-  { id: 7, gender: 'female', name: 'Star', text: "Happy Birthday! Keep shining bright!", color: "from-red-400 to-red-600", img: "/image copy 11.png" },
+  { id: 5, gender: 'female', name: 'Tsatsral', text: "chinii ner saruul, ideh durtai aaruul, bayrlana temuulen haruul,tuund hairaa haruul", color: "from-fuchsia-400 to-fuchsia-600", img: "/image copy 9.png" },
+  { id: 6, gender: 'female', name: 'Anujin', text: "Mundag huurhun naizdaa tursun udriin bayriin mend hurgey 🫶🫶🫶 gej Saruuld bichuulwel oroitsonu ho", color: "from-purple-400 to-purple-600", img: "/image copy 10.png" },
 ];
 
 export default function WishesModal({ isOpen, onClose }: WishesModalProps) {
