@@ -7,7 +7,7 @@ interface WishesModalProps {
 }
 
 const wishes = [
-  { id: 1, gender: 'male', name: 'Dashka', text: "Bainga tusaldagt bayrlla minii naiz ystoi mundag shu tursun udriin mend ❤️", color: "from-blue-400 to-blue-600", img: "/eregtei 2.jpg" },
+  { id: 1, gender: 'male', name: 'Dashka', text: "Bainga tusldagt bayrlla minii naiz ystoi mundag shu tursun udriin mend ❤️", color: "from-blue-400 to-blue-600", img: "/eregtei 2.jpg" },
   { id: 2, gender: 'male', name: 'Tulga', text: "Mundag hogjiltei nzdaa tursun udriin mend Zuwd ud shig zuulhun Zvgeergvid urgus shig shirvvn Zvgeergvi vil hiisen c bvgdiig olood medcideg Zvw zvgeer bhd ni oddog nmg sorrydoroi ❤️ nutgiin ahtaigaa suulganaa hha", color: "from-indigo-400 to-indigo-600", img: "/image copy 6.png" },
   { id: 3, gender: 'female', name: 'Odontsetseg', text: "Sahilgagui huurhun ohindoo zunduu hairtai shuu tursun udrin mend hurgeye ❤️", color: "from-pink-400 to-pink-600", img: "/image copy 7.png" },
   { id: 4, gender: 'female', name: 'LkhagvaTsend', text: "Nz gdg hun ymr bhiin hamgiin tod jishee shuu chi 😘 Tsaashdaa bidnii nohorlol udaan urgeljilj olon shn dursamjuudiig hamtdaa buteene gedgtee itgeltei bn 😉 Hairtai shuu broji", color: "from-rose-400 to-rose-600", img: "/image copy 8.png" },
